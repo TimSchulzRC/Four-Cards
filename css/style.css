@@ -1,65 +1,63 @@
-
 body {
-    text-align: center;
-    background-color: hsl(0, 0%, 98%);
-    color: hsl(234, 12%, 34%);
-    font-family: Poppins;
-    font-size: 1rem;
+  text-align: center;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(234, 12%, 34%);
+  font-family: Poppins;
+  font-size: 1rem;
 }
 
 p {
-    color: hsl(229, 6%, 66%);
+  color: hsl(229, 6%, 66%);
 }
 
-.thin{
-    font-weight: 200;
+.thin {
+  font-weight: 200;
 }
 
 .thick {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .standart {
-    font-weight: 400;
+  font-weight: 400;
 }
 
-.top{
-    margin-top: 7rem;
+.top {
+  margin-top: 7rem;
 }
 
-.card-1{
-border-radius: 6px;
-    border-top:5px solid hsl(180, 62%, 55%) ;
-    align-self: center;
+.card-1 {
+  border-radius: 6px;
+  border-top: 5px solid hsl(180, 62%, 55%);
+  align-self: center;
 }
 
-.card-2{
-border-radius: 6px;
-    border-top:5px solid hsl(0, 78%, 62%) ;
-    align-self: flex-start;
+.card-2 {
+  border-radius: 6px;
+  border-top: 5px solid hsl(0, 78%, 62%);
+  align-self: flex-start;
 }
 
-.card-3{
-border-radius: 6px;
-    border-top:5px solid hsl(34, 97%, 64%) ;
-    align-self: flex-end;
-
+.card-3 {
+  border-radius: 6px;
+  border-top: 5px solid hsl(34, 97%, 64%);
+  align-self: flex-end;
 }
 
-.card-4{
-border-radius: 6px;
-    border-top:5px solid hsl(212, 86%, 64%) ;
-    align-self: center;
+.card-4 {
+  border-radius: 6px;
+  border-top: 5px solid hsl(212, 86%, 64%);
+  align-self: center;
 }
 
 .my-card {
-width: 25rem;
-text-align: left;
-padding: 1rem;
+  width: 25rem;
+  text-align: left;
+  padding: 1rem;
 }
 
 .bottom-content {
-    display: flex; 
-    margin-bottom: 7rem;
-    justify-content: center;
+  display: flex;
+  margin-bottom: 7rem;
+  justify-content: center;
 }
