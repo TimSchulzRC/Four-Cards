@@ -23,7 +23,7 @@ p {
 }
 
 .top {
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 
 .card-1 {
@@ -35,13 +35,13 @@ p {
 .card-2 {
   border-radius: 6px;
   border-top: 5px solid hsl(0, 78%, 62%);
-  align-self: flex-start;
+  /* align-self: flex-start; */
 }
 
 .card-3 {
   border-radius: 6px;
   border-top: 5px solid hsl(34, 97%, 64%);
-  align-self: flex-end;
+  /* align-self: flex-end; */
 }
 
 .card-4 {
@@ -51,7 +51,9 @@ p {
 }
 
 .my-card {
+  display: block;
   width: 25rem;
+  height: 17rem;
   text-align: left;
   padding: 1rem;
 }
@@ -59,5 +61,5 @@ p {
 .bottom-content {
   display: flex;
   margin-bottom: 7rem;
-  justify-content: center;
+  /* justify-content: center; */
 }
